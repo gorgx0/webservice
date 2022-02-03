@@ -7,6 +7,5 @@ import javax.jws.WebService;
 @WebService
 public interface MyService {
     @WebMethod
-    String serviceCall(@WebParam(name = "argument"
-    ) String argument);
+    String serviceCall(@WebParam(name = "argument") String argument);
 }
